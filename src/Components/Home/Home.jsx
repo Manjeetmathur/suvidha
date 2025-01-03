@@ -56,7 +56,7 @@ const Home = () => {
 
   return (
     <div className="w-full p-">
-      <div className="px-3 pt-3" data-aos='zoom-in'>
+      <div className="px-3 pt-3" >
         {/* Image Background */}
         <img
           src={p2}
@@ -66,23 +66,23 @@ const Home = () => {
         />
         {/* Overlay Text */}
         <div className="w-full flex flex-col justify-center items-center 
-          my-10 text-whit text-center md:text-left" data-aos='fade-up'>
+          my-5 md:my-10  text-whit text-center md:text-left" data-aos='fade-up'>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight font- ">
             Be the Part of India’s Growth Story
           </h1>
-          <div className=" pt-6 flex justify-center">
-            <button className="bg-blue-500 text-white font-semibold py-1 px-2 md:py-2 md:px-4
+          <div className="flex justify-center">
+            <button className="bg-blue-500 text-white font-semibold py-2 px-4 md:py-3 md:px-5
              rounded-lg shadow-xl hover:bg-blue-600 hover:text-white 
-              transition duration-300 ease-in-out my-5">
+              transition duration-300 ease-in-out my-5  md:mt-10">
               Start Now
             </button>
           </div>
         </div>
 
       </div>
-      <div className="my-12 border-y-border-gray-00 shadow-xl rounded-" >
+      <div className="border-y-border-gray-00 shadow-xl" >
         <div className="w-full flex flex-col justify-center items-center 
-          my-10 text-whit text-center md:text-left " data-aos='fade-up'>
+          md:mt-10 my-5  text-whit text-center md:text-left " data-aos='fade-up'>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight  ">
             Our Companions
           </h1>
@@ -96,7 +96,7 @@ const Home = () => {
         </div>
         <div className="w-full flex flex-col justify-center items-center 
            text-whit text-center  px-5 mt-10" data-aos='fade-up'>
-          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight  my-5 px-6">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight   px-6">
             Start your Investment Journey Today with Top AMCs
           </h1>
           <div className=" pt-6 flex justify-center">
@@ -108,7 +108,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" flex flex-col justify-center items-center my-4 gap-8 lg:flex-row shadow-xl pb-10 ">
+      <div className=" flex flex-col justify-center items-center mt-8 gap-8 lg:flex-row shadow-xl pb-10 ">
         <div className=" flex gap-8 flex-col md:flex-row">
           <div className="relative bg-blue-500 text-white rounded-lg shadow-2xl p-6 w-[300px] h-[400px]"  data-aos='fade-up'>
             {/* Image Section */}
