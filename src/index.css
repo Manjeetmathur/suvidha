@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-home{
+       background: url('../../src/assets/p2.jpeg');
+       /* object-fit: contain; */
+       width: 90vw;
+       height: 50vw;
+}
+/* w-[90vw] h-[50vw] md:h-[40vw] lg:h-[35vw] */
+.scr::-webkit-scrollbar{
+       /* scroll-behavior: smooth; */
+       height: 20px;
+       color: black;
+        width: 20px;
+}
