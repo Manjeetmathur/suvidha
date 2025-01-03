@@ -12,10 +12,10 @@ const Header = () => {
       {/* Logo or Brand Name */}
       <div className="flex items-center justify-between w-full md:w-auto">
         <NavLink to="/" className="flex items-center">
-          <img src={p1} alt="Logo" className="w-[70px] md:w-[70px] rounded-lg " />
+          <img src={p1} alt="Logo" className="w-[60px] md:w-[70px] rounded-lg " />
         </NavLink>
         <div
-          className="md:hidden text-white text-2xl cursor-pointer"
+          className="md:hidden text-white text-3xl cursor-pointer"
           onClick={() => settoggle(!toggle)}
         >
           {toggle ? <TiTimes /> : <TiThMenu />}
