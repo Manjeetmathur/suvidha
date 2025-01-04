@@ -175,15 +175,15 @@ const Home = () => {
 
 
       </div>
-      <div className=" my-10 shadow-xl pb-5" data-aos='zoom-in'>
+      <div className=" my-10 shadow-xl pb-5" data-aos='fade-up'>
         <div className="w-full flex flex-col justify-center items-center 
-           text-whit text-center md:text-left "  data-aos='fade-up'>
+           text-whit text-center md:text-left "  data-aos='zoom-in'>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-semibold leading-tight  ">
             Your trusted financial partner
           </h1>
         </div>
         <div className="w-full flex flex-col justify-center items-center 
-          my-5 text-whit text-center md:text-left " data-aos='fade-up'>
+          my-5 text-whit text-center md:text-left " data-aos='zoom-in'>
           <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold leading-tight  ">
             15-40%
           </h1>
@@ -192,7 +192,7 @@ const Home = () => {
           </h1>
         </div>
         <div className="w-full flex flex-col justify-center items-center 
-          my-5 text-whit text-center md:text-left " data-aos='fade-up'>
+          my-5 text-whit text-center md:text-left " data-aos='zoom-in'>
           <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold leading-tight  ">
             24/7
           </h1>
@@ -201,7 +201,7 @@ const Home = () => {
           </h1>
         </div>
         <div className="w-full flex flex-col justify-center items-center 
-          my-5 text-whit text-center md:text-left " data-aos='fade-up'>
+          my-5 text-whit text-center md:text-left " data-aos='zoom-in'>
           <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold leading-tight  ">
             1M +
           </h1>
