@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 const Blog = () => {
        useEffect(() => {
               Aos.init({
-                     duration: 2000,
+                     duration: 1500,
                      once: false,
               })
        }, [])

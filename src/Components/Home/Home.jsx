@@ -49,7 +49,7 @@ const Home = () => {
 
      useEffect(()=>{
       Aos.init({
-        duration:1000,
+        duration:1500,
         easing : 'ease-in-out',
         once:false,
       })
