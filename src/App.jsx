@@ -7,6 +7,7 @@ import Contact from './Components/Contact/Contact'
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
 import Blog from './Components/Blog/Blog'
+import ReadMore from './Components/Blog/ReadMore'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path='/' element = {<Home/>} />
             <Route path='/services' element = {<Services/>} />
             <Route path='/blog' element = {<Blog/>} />
+            <Route path='/readmore/:id' element = {<ReadMore/>} />
             <Route path='/about' element = {<About/>} />
             <Route path='/Contact' element = {<Contact/>} />
           </Routes>

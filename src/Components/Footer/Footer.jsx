@@ -28,10 +28,10 @@ const Footer = () => {
             </li>
             <li>
               <NavLink
-                to="/services"
+                to="/blog"
                 className="hover:text-gray-200 transition duration-200"
               >
-                Services
+               Blog
               </NavLink>
             </li>
             <li>

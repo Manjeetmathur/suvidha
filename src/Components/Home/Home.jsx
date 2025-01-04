@@ -11,6 +11,7 @@ import p10 from '../../assets/p10.webp'
 import p11 from '../../assets/p11.webp'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom'
 const Home = () => {
   const item = [p3, p4, p5, p6, p7, p8, p3, p4, p5, p6, p7, p8]
   const person1 = {
@@ -49,7 +50,7 @@ const Home = () => {
      useEffect(()=>{
       Aos.init({
         duration:1000,
-        easing : 'ease-in',
+        easing : 'ease-in-out',
         once:false,
       })
      },[])
@@ -71,11 +72,11 @@ const Home = () => {
             Be the Part of India’s Growth Story
           </h1>
           <div className="flex justify-center">
-            <button className="bg-blue-500 text-white font-semibold py-2 px-4 md:py-3 md:px-5
+            <Link to={"/contact"} className="bg-blue-500 text-white font-semibold py-2 px-4 md:py-3 md:px-5
              rounded-lg shadow-xl hover:bg-blue-600 hover:text-white 
               transition duration-300 ease-in-out my-5  md:mt-10">
-              Start Now
-            </button>
+              Join Now
+            </Link>
           </div>
         </div>
 
@@ -95,20 +96,20 @@ const Home = () => {
           }
         </div>
         <div className="w-full flex flex-col justify-center items-center 
-           text-whit text-center  px-5 mt-10" data-aos='fade-up'>
-          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight   px-6">
+           text-whit text-center  px-5 my-" data-aos='fade-up'>
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight mb-10  px-6">
             Start your Investment Journey Today with Top AMCs
           </h1>
-          <div className=" pt-6 flex justify-center">
+          {/* <div className=" pt-6 flex justify-center">
             <button className="bg-blue-500 text-white font-semibold py-1 px-2 md:py-2 md:px-4
              rounded-lg shadow-xl hover:bg-blue-600 hover:text-white 
               transition duration-300 ease-in-out mb-8">
               Register Now
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className=" flex flex-col justify-center items-center mt-8 gap-8 lg:flex-row shadow-xl pb-10 ">
+      <div className=" flex flex-col justify-center items-center mt-12 gap-8 lg:flex-row shadow-xl pb-10  ">
         <div className=" flex gap-8 flex-col md:flex-row">
           <div className="relative bg-blue-500 text-white rounded-lg shadow-2xl p-6 w-[300px] h-[400px]"  data-aos='fade-up'>
             {/* Image Section */}

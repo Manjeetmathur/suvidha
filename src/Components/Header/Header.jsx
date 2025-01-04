@@ -25,9 +25,37 @@ const Header = () => {
       {/* Navigation Links */}
       <div
         className={`absolute top-[70px] left-0 w-full bg-blue-500 
-          md:static md:flex md:space-x-6 md:w-auto   ${
+          md:hidden  ${
           toggle ? "flex flex-col space-y-4 p-6" : "hidden"
         }`}
+      >
+        <NavLink
+          to="/"
+          className="text-white hover:text-gray-200 transition duration-200 font-medium"
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="/blog"
+          className="text-white hover:text-gray-200 transition duration-200 font-medium"
+        >
+          Blog
+        </NavLink>
+        <NavLink
+          to="/about"
+          className="text-white hover:text-gray-200 transition duration-200 font-medium"
+        >
+          About Us
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className="text-white hover:text-gray-200 transition duration-200 font-medium"
+        >
+          Contact
+        </NavLink>
+      </div>
+      <div
+        className={`hidden  md:flex md:space-x-6 md:w-auto `}
       >
         <NavLink
           to="/"
